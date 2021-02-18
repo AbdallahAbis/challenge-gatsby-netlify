@@ -50,7 +50,7 @@ export default () => (
 		query={graphql`
 			query HistoryRollQuery {
 				allMarkdownRemark(
-					filter: { frontmatter: { templateKey: { eq: "history-page" } } }
+					filter: { frontmatter: { templateKey: { eq: "history-post" } } }
 				) {
 					edges {
 						node {
